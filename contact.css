@@ -1,0 +1,26 @@
+.workhead {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    /* font-size: x-large; */
+    font-style: oblique;
+    padding-top: 10vh;
+    margin-bottom: 23vh;
+}
+
+.icons {
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+}
+
+.bi:hover{
+    color: #FFE81F;
+    transition: color 0.5s;
+}
+
+.dec a {
+    text-decoration: none;
+    color: white;
+}

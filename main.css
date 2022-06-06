@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    overflow: hidden;
+} */
+
+section {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    background: linear-gradient(135deg, #111, #222, #111) repeat;
+    z-index: -1;
+}
+
+section star {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+    animation: animate linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* About specific css */
+
+a:first-of-type {
+    text-decoration: none;
+}
+
+a h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+
+a h1:hover {
+    color: rgba(255, 255, 255, 0.801);
+    transition: color 0.5s;
+}
+
+
+.moveup {
+    position: relative;
+    bottom: 28px;
+    left: 2px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#nav a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#nav a:hover {
+    color: #FFE81F;
+    transition: color 0.5s;
+}
+
