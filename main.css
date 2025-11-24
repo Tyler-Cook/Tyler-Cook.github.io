@@ -94,3 +94,8 @@ nav {
     transition: color 0.5s;
 }
 
+.container-fluid {
+    position: relative;
+    z-index: 2; /* higher than the section (0) */
+}
+
