@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-/* body {
-    overflow: hidden;
-} */
+body {
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
 
 section {
     display: flex;
