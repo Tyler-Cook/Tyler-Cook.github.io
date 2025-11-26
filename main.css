@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: transparent;
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 1;
 }
 
@@ -95,7 +101,21 @@ nav {
 }
 
 .container-fluid {
+    flex: 1;
     position: relative;
     z-index: 2; /* higher than the section (0) */
+}
+
+.site-footer {
+    position: relative;
+    z-index: 2;
+    padding: 2rem 0 3rem;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffffb8;
+    font-family: 'Bebas Neue', cursive;
+    opacity: 0.85;
+    margin-top: 5vh;
 }
 
